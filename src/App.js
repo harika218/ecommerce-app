@@ -17,6 +17,7 @@ import Profile from './Profile';
 import EditProfile from './EditProfile';
 import Users from './users/Users';
 import Todo from './Todo';
+import ExampleHooks from './hooks/ExampleHooks';
 
 
 function App() {
@@ -55,6 +56,7 @@ function App() {
         <Route path="/edit-profile" element={<EditProfile />}></Route>
         <Route path='/users' element={<Users />}></Route>
         <Route path='/todo' element={<Todo />}></Route>
+        <Route path="/hooks" element={<ExampleHooks />}></Route>
 
       </Routes>
       <Footer />

@@ -44,8 +44,11 @@ function Navbar() {
                         <li className="nav-item">
                             <Link className="nav-link" to="/todo">Todo</Link>
                         </li>
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                             <a className="nav-link" onClick={navigateToCart}>Cart</a>
+                        </li> */}
+                        <li className='nav-item'>
+                            <Link className='nav-link' to="/hooks">Hooks</Link>
                         </li>
                     </ul>
 
